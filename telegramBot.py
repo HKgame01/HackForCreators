@@ -54,7 +54,7 @@ def send_link(message):
     global finalText
     finalText = finalTextL
     finalText = finalText.split("\n")
-    bot.send_message(message.chat.id, f"Okay got it")
+    bot.send_message(message.chat.id, f"Okay got it\nNow you can use\n/title - Get the appropiate Title\n/description - Get the appropiate Description\n/tags - Get the appropiate Tags")
 
 
 @bot.message_handler(commands=['title'])
